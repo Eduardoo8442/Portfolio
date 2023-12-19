@@ -9,8 +9,8 @@ Currently, two official plugins are available:
 
 
 
-# master - github
+# Master - Github
 
-Utilize npm install nesta pasta e, após finalizar a instalação, utilize npm run build.
+Utilize npm install neste diretório e, após finalizar a instalação, utilize npm run build.
 
 Para rodar a aplicação em sua máquina, utilize npm run dev.
