@@ -1,15 +1,18 @@
 import React from 'react';
-import { PageStyle } from './styled';
+import { PageStyle, HoverIcon, Paragrafo, Container } from './styled';
 export default function Icon() {
 
     const imagePath = '/img/iconperfil.png';
     return (
-        <div>
+        <Container>
             <PageStyle />
      <div className='icon'>
      
         <img src={imagePath}  />
-     </div>
-     </div>
+     </div> 
+     <HoverIcon>
+    <Paragrafo>Foto Discord</Paragrafo>
+    </HoverIcon>   
+     </Container>
     )
 }
