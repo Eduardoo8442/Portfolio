@@ -6,6 +6,10 @@ export const HoverIcon = styled.div`
   justify-content: center;
   position: absolute;
   right: 400px; 
+  @media (max-width: 600px) {
+    right: auto;
+    margin-top: 120px;
+    } 
   display: flex;
   align-items: center;
   background-color: #212222d5;
