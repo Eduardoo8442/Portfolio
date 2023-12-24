@@ -4,7 +4,7 @@ import Details from '../Details';
 import { useSelector } from 'react-redux';
 import FormEmail from '../FormEmail';
 import { TextEmail, ContainerEmail } from './styled';
-
+import IconsEmail from '../IconsEmail';
 export default function Main() {
     const showDetails = useSelector(state => state.showDetails ? state.showDetails.showDetails : null);
     return (
@@ -15,6 +15,7 @@ export default function Main() {
     <Details /> 
     <TextEmail>Enviar um email</TextEmail>
     <FormEmail />
+    <IconsEmail />
     </ContainerEmail>
     ) : null}
     </div>
