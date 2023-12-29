@@ -45,7 +45,7 @@ export default function Details() {
         <button className="contatods" onClick={showDiscord}>contato <FaDiscord /></button>
       </div>
       <div className="ballds">
-      <div class="ballpds"><FaDiscord size={18}/></div>
+      <div className="ballpds"><FaDiscord size={18}/></div>
       </div>
       </div>
       </Discord>
@@ -63,7 +63,7 @@ export default function Details() {
         <button className="contatogh" onClick={showGitHub}>perfil <FaGithub /></button>
       </div>
       <div className="ballgh">
-      <div class="ballpgh"><FaGithub /></div>
+      <div className="ballpgh"><FaGithub /></div>
       </div>
       </div>
       </Github>
@@ -79,7 +79,7 @@ export default function Details() {
         <button className="contatold" onClick={showLink}>perfil <FaLinkedin /></button>
       </div>
       <div className="ballld">
-      <div class="ballpld"><FaLinkedin /></div>
+      <div className="ballpld"><FaLinkedin /></div>
       </div>
       </div>
       </Linkedin>

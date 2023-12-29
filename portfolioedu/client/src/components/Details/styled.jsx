@@ -153,7 +153,6 @@ color: white;
 font-size: 25px;
 `;
 export const Discord = styled.div`
-margin: auto;
 border: 2px black solid;
 width: 260px;
 height: 430px;
@@ -165,7 +164,6 @@ transition: 300ms;
 }
 `;
 export const Github = styled.div`
-margin: auto;
 border: 2px black solid;
 width: 260px;
 height: 430px;
@@ -180,7 +178,6 @@ transition: 300ms;
 }
 `;
 export const Linkedin = styled.div`
-margin: auto;
 border: 2px black solid;
 width: 260px;
 height: 430px;
@@ -203,5 +200,8 @@ flex-direction: row;
    display: flex;
    justify-content: center;
    flex-direction: column;
+   margin: auto;
+   margin-top: 80px;
+   margin-bottom: 80px;
     } 
 `;
