@@ -3,12 +3,12 @@ import Image from '../Image';
 import Details from '../Details';
 import { useSelector } from 'react-redux';
 import FormEmail from '../FormEmail';
-import { TextEmail, ContainerEmail } from './styled';
+import { TextEmail, ContainerEmail, Container } from './styled';
 import IconsEmail from '../IconsEmail';
 export default function Main() {
     const showDetails = useSelector(state => state.showDetails ? state.showDetails.showDetails : null);
     return (
-    <div>
+    <Container>
     <Image />
     {showDetails ? (
         <ContainerEmail>
@@ -18,6 +18,6 @@ export default function Main() {
     <IconsEmail />
     </ContainerEmail>
     ) : null}
-    </div>
+    </Container>
     )
 }
