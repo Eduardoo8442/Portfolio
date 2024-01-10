@@ -17,18 +17,7 @@ export default function Details() {
   });
   }
   function showDiscord() {
-    toast.info('Nick Discord: eduardoo84', {
-      position: toast.POSITION.BOTTOM_CENTER,
-      icon: <FaDiscord/>, 
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-     draggable: true,
-    progress: undefined,
-    theme: "colored",
-    });
-    return;
+    window.location.href = 'https://discord.com/users/347853688649547776';
   }
   return (
     <Container id='container'> 

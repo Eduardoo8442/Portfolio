@@ -1,8 +1,6 @@
 import React from "react";
 import { Container } from './styled';
 import { FaGithub, FaSteam, FaDiscord } from "react-icons/fa";
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 export default function IconsEmail() {
     function handleGit() {
         window.location.href = 'https://github.com/eduardoo8442';
@@ -11,17 +9,7 @@ export default function IconsEmail() {
         return null;
     }
     function handleDiscord() {
-            toast.info('Nick Discord: eduardoo84', {
-              position: toast.POSITION.BOTTOM_CENTER,
-              icon: <FaDiscord/>, 
-              autoClose: 1000,
-              hideProgressBar: false,
-              closeOnClick: true,
-              pauseOnHover: true,
-             draggable: true,
-            progress: undefined,
-            theme: "colored",
-            });
+        window.location.href = 'https://discord.com/users/347853688649547776';
     }
     return (
         <Container>
