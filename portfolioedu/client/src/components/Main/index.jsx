@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 import FormEmail from '../FormEmail';
 import { TextEmail, ContainerEmail, Container } from './styled';
 import IconsEmail from '../IconsEmail';
+import Projects from '../Projects';
 export default function Main() {
     const showDetails = useSelector(state => state.showDetails ? state.showDetails.showDetails : null);
     return (
@@ -12,7 +13,8 @@ export default function Main() {
     <Image />
     {showDetails ? (
         <ContainerEmail>
-    <Details /> 
+    <Details />
+    <Projects /> 
     <TextEmail>Enviar um email</TextEmail>
     <FormEmail />
     <IconsEmail />
